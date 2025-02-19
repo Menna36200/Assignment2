@@ -4,7 +4,7 @@ public class Main {
     public static void main (String[] args){
         System.out.println("Enter The Number: ");
         int num;
-        boolean n = false;
+        boolean a = false;
         Scanner input = new Scanner(System.in);
 
         num = input.nextInt();
@@ -12,11 +12,11 @@ public class Main {
         {
             if(num % i ==0 )
             {
-           n = true;
+           a = true;
            break;
             }
         }
-        if(n==true)
+        if(a)
         {
             System.out.println("The " +num+ " is not prime number");
         }
